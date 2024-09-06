@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="<%= __("lang") %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= __('title') %></title>
+
+    <meta name="description" content="<%= __('description') %>">
+    <meta itemprop="name" content="<%= __('title') %>">
+    <meta name="robots" content="index, follow">
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="<%= __('title') %>">
+    <meta name="twitter:description" content="<%= __('description') %>">
+    <meta name="twitter:image:src" content="/images/favicon.png"/>
+    <meta name="twitter:site" content="fbookdownloader.onrender.com"/>
+
+    <meta property="og:title" content="<%= __('title') %>">
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://fbookdownloader.onrender.com"/>
+    <meta property="og:image" content="/images/favicon.png"/>
+    <meta property="og:description" content="<%= __('description') %>">
+    <meta property="og:site_name" content="fbookdownloader.onrender.com"/>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/images/favicon.png">
+    <link rel="shortcut icon" sizes="192x192" href="/images/favicon.png">
+    <meta name="google" content="notranslate"/>
+
+    <link rel="alternate" hreflang="x-default" href="https://fbookdownloader.onrender.com/">
+    <link rel="canonical" href="<%= __('canonical-url') %>">
+    <link rel="alternate" hreflang="vi" href="https://fbookdownloader.onrender.com/vi"/>
+    <link rel="alternate" hreflang="en" href="https://fbookdownloader.onrender.com/en"/>
+    <link rel="alternate" hreflang="es" href="https://fbookdownloader.onrender.com/es"/>
+    <link rel="alternate" hreflang="fr" href="https://fbookdownloader.onrender.com/fr"/>
+    <link rel="alternate" hreflang="zh-CN" href="https://fbookdownloader.onrender.com/zh-CN"/>
+    <link rel="alternate" hreflang="de" href="https://fbookdownloader.onrender.com/de"/>
+    <link rel="alternate" hreflang="ja" href="https://fbookdownloader.onrender.com/ja"/>
+    <link rel="alternate" hreflang="ko" href="https://fbookdownloader.onrender.com/ko"/>
+    <link rel="alternate" hreflang="pt" href="https://fbookdownloader.onrender.com/pt"/>
+    <link rel="alternate" hreflang="it" href="https://fbookdownloader.onrender.com/it"/>
+    <link rel="alternate" hreflang="hi" href="https://fbookdownloader.onrender.com/hi"/>
+    <link rel="alternate" hreflang="ro" href="https://fbookdownloader.onrender.com/ro"/>
+    <link rel="alternate" hreflang="id" href="https://fbookdownloader.onrender.com/id"/>
+    <link rel="alternate" hreflang="ms" href="https://fbookdownloader.onrender.com/ms"/>
+    <link rel="alternate" hreflang="th" href="https://fbookdownloader.onrender.com/th"/>
+    <link rel="alternate" hreflang="ru" href="https://fbookdownloader.onrender.com/ru"/>
+    <style type="text/css">
+        :root{--header-height:3.5rem;--black-color:#171c26;--black-color-light:#1d232f;--black-color-lighten:#252b37;--white-color:#fff;--body-color:#f0f5ff;--normal-font-size:.938rem;--font-regular:400;--font-semi-bold:600;--z-tooltip:10;--z-fixed:100 }#videoContainer{position:relative;width:100%;margin:auto}.downloadButton{display:block}.container-content-fb{width:100%;display:flex;align-items:center;justify-content:space-evenly;flex-wrap:wrap}.container-content-information{display:flex;flex-wrap:wrap;justify-content:center}.container-content-information div{position:relative;margin:10px;text-align:center}.container-content-information img{display:block}.container-content-information a{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);background-color:rgba(0,0,0,.5);color:#fff;padding:0 20px;border-radius:5px;text-decoration:none;font-size:12px}.style-image-fb{width:280px;height:360px;object-fit:cover;border-radius:8px;box-shadow:0 0 15px rgba(0,0,0,.05)}#inputContainer{text-align:center;margin-bottom:10px}#urlInput{padding:5px}.btnDownload{width:100%;border:none;background:#0866ff;padding:12px;margin-top:15px;border-radius:8px;color:#fff}.form button,.input-container input{outline:none;border:1px solid #e5e7eb;margin:8px 0}.input-container span{display:grid;position:absolute;top:0;bottom:0;right:0;padding-left:1rem;padding-right:2rem;place-content:center}.dots-container{display:flex;align-items:center;justify-content:center;height:100%;width:100%}.dot{height:20px;width:20px;margin-right:10px;border-radius:10px;background-color:#b3d4fc;animation:pulse 1.5s ease-in-out infinite}.dot:last-child{margin-right:0}.dot:first-child{animation-delay:-.3s}.dot:nth-child(2){animation-delay:-.1s}.dot:nth-child(3){animation-delay:.1s}@keyframes pulse{0%{transform:scale(.8);background-color:#b3d4fc;box-shadow:0 0 0 0 rgba(178,212,252,.7)}50%{transform:scale(1.2);background-color:#6793fb;box-shadow:0 0 0 10px rgba(178,212,252,0)}to{transform:scale(.8);background-color:#b3d4fc;box-shadow:0 0 0 0 rgba(178,212,252,.7)}}.input-container{position:relative;width:65%}.container-input-btn{position:relative;display:flex;justify-content:center;width:100%}.btnDownload-from{margin-bottom:10px;border:none;margin-right:20px;padding:10px;width:20%;background:#0866ff;color:#fff;border-radius:5px}.btnPaste-from{margin-bottom:10px;padding:10px;border:1px solid #d0d9de;border-radius:5px}.container-btn-from{margin-top:20px;width:100%;flex-wrap:wrap}.video-container{margin-top:65px}.title-video{margin:0;width:365px}.image-video{width:20%;display:none;border-radius:8px}@media screen and (min-width:1024px){:root{--normal-font-size:1rem }}*{box-sizing:border-box;padding:0;margin:0}body{font-family:system-ui;font-size:var(--normal-font-size)}ul{list-style:none}a{text-decoration:none}.container-header{max-width:1100px;margin-inline:1.5rem}.header{right:200px;top:20px;left:200px;position:fixed;background-color:hsla(0,0%,100%,.8);box-shadow:0 5px 42px 0 rgba(0,0,0,.0784313725490196);border-radius:1rem;z-index:var(--z-fixed);padding:0 20px}.nav-header{height:var(--header-height)}.nav__burger,.nav__close,.nav__logo{color:var(--black-color)}.nav__data{height:100%;display:flex;justify-content:space-between;align-items:center}.nav__logo{display:inline-flex;align-items:center;column-gap:.25rem;font-weight:var(--font-semi-bold)}.nav__logo i{font-weight:400;font-size:1.25rem}.nav__toggle{position:relative;width:32px;height:32px}.nav__burger,.nav__close{position:absolute;width:max-content;height:max-content;inset:0;margin:auto;font-size:1.25rem;cursor:pointer;transition:opacity .1s,transform .4s}.nav__close{opacity:0}@media screen and (max-width:1118px){.nav__menu{position:absolute;left:0;top:2.5rem;width:100%;height:calc(100vh - 3.5rem);overflow:auto;pointer-events:none;opacity:0;transition:top .4s,opacity .3s}.nav__menu::-webkit-scrollbar{width:0}.nav__list{background-color:var(--white-color);padding-top:1rem}.header{left:30px;right:30px}}@media screen and (max-width:1024px){.input-container{width:100%}}@media screen and (max-width:900px){.container-input-btn{width:120%}.video-container{flex-direction:column}.media-list{width:100%}}@media screen and (max-width:750px){.container-btn-from{flex-direction:column}.btnDownload-from{margin-right:0;width:100%}.btnPaste-from,.container-content-information div,.style-image-fb{width:100%}}.nav__link{color:var(--black-color);font-weight:var(--font-semi-bold);padding:1.25rem 1.5rem;display:flex;justify-content:space-between;align-items:center;transition:background-color .3s}.nav__link,.nav__link:hover{background-color:var(--white-color)}.show-menu{opacity:1;top:3.5rem;pointer-events:auto}.show-icon .nav__burger{opacity:0;transform:rotate(90deg)}.show-icon .nav__close{opacity:1;transform:rotate(90deg)}.dropdown__item{cursor:pointer}.dropdown__arrow{font-size:1.25rem;font-weight:400;transition:transform .4s}.dropdown__link,.dropdown__sublink{padding:1.25rem 1.25rem 1.25rem 2.5rem;color:var(--black-color);background-color:var(--white-color);display:flex;align-items:center;column-gap:.5rem;font-weight:var(--font-semi-bold);transition:background-color .3s;flex:1}.dropdown__link i,.dropdown__sublink i{font-size:1.25rem;font-weight:400}.dropdown__link:hover,.dropdown__sublink:hover{background-color:var(--black-color);color:var(--white-color)}.dropdown__menu,.dropdown__submenu{max-height:0;transition:max-height .4s ease-out}.dropdown__item:hover .dropdown__menu,.dropdown__subitem:hover>.dropdown__submenu{max-height:1000px;transition:max-height .4s ease-in}.dropdown__item:hover .dropdown__arrow{transform:rotate(180deg)}@media screen and (max-width:520px){.header{left:5px;right:5px}}@media screen and (max-width:340px){.container-header{margin-inline:1rem}.nav__link{padding-inline:1rem}.button{font-size:10px;width:120px}.header{padding:0}}@media screen and (max-width:390px){.image-video{width:40%}.title-video{width:190px}}@media screen and (min-width:1118px){.container-header{margin-inline:auto}.nav-header{height:calc(var(--header-height) + 2rem);display:flex;justify-content:space-between}.nav__toggle{display:none}.nav__list{height:100%;display:flex;column-gap:3rem}svg{width:17px;margin-right:5px}.nav__link{height:100%;padding:0;justify-content:normal;column-gap:.25rem}.nav__link:hover{background-color:transparent}.dropdown__item,.dropdown__subitem{position:relative}.dropdown__menu,.dropdown__submenu{max-height:none;overflow:initial;position:absolute;left:-300px;top:6rem;opacity:0;pointer-events:none;transition:opacity .3s,top .3s}.dropdown__link,.dropdown__sublink{padding-inline:1rem 3.5rem}.dropdown__subitem .dropdown__link{padding-inline:1rem}.dropdown__submenu{position:absolute;left:100%;top:.5rem}.dropdown__item:hover .dropdown__menu{opacity:1;top:5.5rem;pointer-events:auto;transition:top .3s}.dropdown__subitem:hover>.dropdown__submenu{opacity:1;top:0;pointer-events:auto;transition:top .3s}}.input-group{display:flex;align-items:center}.input{width:100%;min-height:50px;padding:.5rem 1rem;background-color:#f2f2f2;box-shadow:none;border-radius:6px 0 0 6px;border:1px solid #e0e0e0;color:#5d5d5d}.button--submit{min-height:50px;border:none;border-radius:0 6px 6px 0;background-color:#242424;color:#fff;font-size:13px;padding-left:10px;padding-right:10px;cursor:pointer;transition:background-color .3s ease-in-out}.button--submit:hover{background-color:#5e5dcd}.input:focus,.input:focus-visible{border-color:#3898ec;outline:none}#qrCodeContainer{gap:20px;min-height:250px}#qrCodeContainer,.qr-code-container{display:flex;align-items:center;justify-content:center}.qr-code-container{width:100%;height:100%}.qr-code-container img{max-width:100%;max-height:100%;border-radius:20px}.button:active{background:#242424}.button__text{color:#fff;transition:all .2s}.button--loading .button__text{visibility:hidden;opacity:0}.button--loading:after{content:"";position:absolute;width:16px;height:16px;top:0;left:0;right:0;bottom:0;margin:auto;border:4px solid transparent;border-top-color:#fff;border-radius:50%;animation:button-loading-spinner 1s ease infinite}@keyframes button-loading-spinner{0%{transform:rotate(0turn)}to{transform:rotate(1turn)}}.Btn{width:50px;height:50px;border:none;border-radius:5%;background-color:#1b1b1b;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;transition-duration:.3s;box-shadow:2px 2px 10px rgba(0,0,0,.11);color:#fff;font-size:11px}.svgIcon{fill:#2196f3}.icon2{width:18px;height:5px;border-bottom:2px solid #2196f3;border-left:2px solid #2196f3;border-right:2px solid #2196f3;margin-bottom:10px}.Btn:hover{opacity:1;background-color:#2196f3;transition-duration:.3s}.Btn:hover .icon2{border-bottom:2px solid #fff;border-left:2px solid #fff;border-right:2px solid #fff}.Btn:hover .svgIcon{fill:#fff;animation:slide-in-top .6s cubic-bezier(.25,.46,.45,.94) both}@keyframes slide-in-top{0%{transform:translateY(-10px);opacity:0}to{transform:translateY(0);opacity:1}}.container-download{display:flex;justify-content:space-between}#loading2{position:absolute;width:2.25em;transform-origin:center;animation:rotate4 2s linear infinite}circle{fill:none;stroke:#3189fc;stroke-width:2;stroke-dasharray:1,200;stroke-dashoffset:0;stroke-linecap:round;animation:dash4 1.5s ease-in-out infinite}@keyframes rotate4{to{transform:rotate(1turn)}}@keyframes dash4{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:90,200;stroke-dashoffset:-35px}to{stroke-dashoffset:-125px}}.accordion{background-color:#eee;color:#444;cursor:pointer;width:100%;border:none;text-align:left;outline:none;font-size:15px;transition:background-color .4s;margin-top:20px;border-radius:10px;position:relative;padding:18px 55px 18px 18px}.accordion:hover,.active{background-color:#ccc}.panel{padding:0 18px;max-height:0;overflow:hidden;transition:max-height .2s ease-out}.panel p{margin-block-start:1.3em;text-align:justify}.accordion i{position:absolute;top:50%;right:18px;transform:translateY(-50%);transition:transform .4s}.accordion.active i{transform:translateY(-50%) rotate(-180deg)}.mlr{margin-left:10px;margin-right:10px}footer{background-color:#333;color:#fff;padding:15px 0;text-align:center;width:100%;bottom:0}.footer-content{max-width:1200px;margin:0 auto}.footer-content p{margin:5px 0}.footer-content a{color:#fff;text-decoration:none}@font-face{font-family:remixicon;src:url(https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.eot?t=1681573354175);src:url(https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.eot?t=1681573354175#iefix) format("embedded-opentype"),url(https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.woff2?t=1681573354175) format("woff2"),url(https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.woff?t=1681573354175) format("woff"),url(https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.ttf?t=1681573354175) format("truetype"),url(https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.svg?t=1681573354175#remixicon) format("svg");font-display:swap}[class*=" ri-"],[class^=ri-]{font-family:remixicon!important;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.ri-sm{font-size:.875em}.ri-a-b:before{content:"\ea05"}.ri-alert-fill:before{content:"\ea20"}.ri-alert-line:before{content:"\ea21"}.ri-align-bottom:before{content:"\ea24"}.ri-align-center:before{content:"\ea25"}.ri-align-justify:before{content:"\ea26"}.ri-align-left:before{content:"\ea27"}.ri-align-right:before{content:"\ea28"}.ri-align-top:before{content:"\ea29"}.ri-android-fill:before{content:"\ea35"}.ri-android-line:before{content:"\ea36"}.ri-arrow-down-circle-fill:before{content:"\ea49"}.ri-arrow-down-circle-line:before{content:"\ea4a"}.ri-arrow-down-fill:before{content:"\ea4b"}.ri-arrow-down-line:before{content:"\ea4c"}.ri-arrow-down-s-fill:before{content:"\ea4d"}.ri-arrow-down-s-line:before{content:"\ea4e"}.ri-arrow-left-circle-fill:before{content:"\ea5b"}.ri-arrow-left-circle-line:before{content:"\ea5c"}.ri-arrow-left-down-fill:before{content:"\ea5d"}.ri-arrow-left-down-line:before{content:"\ea5e"}.ri-arrow-left-fill:before{content:"\ea5f"}.ri-arrow-left-line:before{content:"\ea60"}.ri-arrow-left-right-fill:before{content:"\ea61"}.ri-arrow-left-right-line:before{content:"\ea62"}.ri-arrow-left-s-fill:before{content:"\ea63"}.ri-arrow-left-s-line:before{content:"\ea64"}.ri-arrow-left-up-fill:before{content:"\ea65"}.ri-arrow-left-up-line:before{content:"\ea66"}.ri-arrow-right-circle-fill:before{content:"\ea67"}.ri-arrow-right-circle-line:before{content:"\ea68"}.ri-arrow-right-down-fill:before{content:"\ea69"}.ri-arrow-right-down-line:before{content:"\ea6a"}.ri-arrow-right-fill:before{content:"\ea6b"}.ri-arrow-right-line:before{content:"\ea6c"}.ri-arrow-right-s-fill:before{content:"\ea6d"}.ri-arrow-right-s-line:before{content:"\ea6e"}.ri-arrow-right-up-fill:before{content:"\ea6f"}.ri-arrow-right-up-line:before{content:"\ea70"}.ri-arrow-up-circle-fill:before{content:"\ea71"}.ri-arrow-up-circle-line:before{content:"\ea72"}.ri-arrow-up-down-fill:before{content:"\ea73"}.ri-arrow-up-down-line:before{content:"\ea74"}.ri-arrow-up-fill:before{content:"\ea75"}.ri-arrow-up-line:before{content:"\ea76"}.ri-arrow-up-s-fill:before{content:"\ea77"}.ri-arrow-up-s-line:before{content:"\ea78"}.ri-at-fill:before{content:"\ea82"}.ri-at-line:before{content:"\ea83"}.ri-close-circle-fill:before{content:"\eb96"}.ri-close-circle-line:before{content:"\eb97"}.ri-close-fill:before{content:"\eb98"}.ri-close-line:before{content:"\eb99"}.ri-device-fill:before{content:"\ec2d"}.ri-device-line:before{content:"\ec2e"}.ri-download-2-fill:before{content:"\ec53"}.ri-download-2-line:before{content:"\ec54"}.ri-download-fill:before{content:"\ec59"}.ri-download-line:before{content:"\ec5a"}.ri-english-input:before{content:"\ec9b"}.ri-file-2-fill:before{content:"\ecc2"}.ri-file-2-line:before{content:"\ecc3"}.ri-file-3-fill:before{content:"\ecc4"}.ri-file-3-line:before{content:"\ecc5"}.ri-file-4-fill:before{content:"\ecc6"}.ri-file-4-line:before{content:"\ecc7"}.ri-file-copy-2-fill:before{content:"\ecd2"}.ri-file-copy-2-line:before{content:"\ecd3"}.ri-file-copy-fill:before{content:"\ecd4"}.ri-file-copy-line:before{content:"\ecd5"}.ri-file-download-fill:before{content:"\ecd8"}.ri-file-download-line:before{content:"\ecd9"}.ri-file-fill:before{content:"\ece0"}.ri-file-gif-fill:before{content:"\ece3"}.ri-file-gif-line:before{content:"\ece4"}.ri-file-line:before{content:"\eceb"}.ri-file-list-2-fill:before{content:"\ecec"}.ri-file-list-2-line:before{content:"\eced"}.ri-file-list-3-fill:before{content:"\ecee"}.ri-file-list-3-line:before{content:"\ecef"}.ri-file-list-fill:before{content:"\ecf0"}.ri-file-list-line:before{content:"\ecf1"}.ri-file-reduce-fill:before{content:"\ed02"}.ri-file-reduce-line:before{content:"\ed03"}.ri-file-search-fill:before{content:"\ed04"}.ri-file-search-line:before{content:"\ed05"}.ri-file-settings-fill:before{content:"\ed06"}.ri-file-settings-line:before{content:"\ed07"}.ri-file-text-fill:before{content:"\ed0e"}.ri-file-text-line:before{content:"\ed0f"}.ri-file-upload-fill:before{content:"\ed14"}.ri-file-upload-line:before{content:"\ed15"}.ri-file-user-fill:before{content:"\ed16"}.ri-file-user-line:before{content:"\ed17"}.ri-font-size-2:before{content:"\ed8c"}.ri-font-size:before{content:"\ed8d"}.ri-google-fill:before{content:"\edd4"}.ri-google-line:before{content:"\edd5"}.ri-h-1:before{content:"\ede6"}.ri-h-2:before{content:"\ede7"}.ri-h-3:before{content:"\ede8"}.ri-h-4:before{content:"\ede9"}.ri-h-5:before{content:"\edea"}.ri-h-6:before{content:"\edeb"}.ri-html5-fill:before{content:"\ee40"}.ri-html5-line:before{content:"\ee41"}.ri-image-2-fill:before{content:"\ee44"}.ri-image-2-line:before{content:"\ee45"}.ri-image-fill:before{content:"\ee4a"}.ri-image-line:before{content:"\ee4b"}.ri-line-fill:before{content:"\eeac"}.ri-line-height:before{content:"\eead"}.ri-line-line:before{content:"\eeae"}.ri-link-m:before{content:"\eeaf"}.ri-link:before{content:"\eeb2"}.ri-list-settings-fill:before{content:"\eebc"}.ri-list-settings-line:before{content:"\eebd"}.ri-loader-2-fill:before{content:"\eec1"}.ri-loader-2-line:before{content:"\eec2"}.ri-loader-3-fill:before{content:"\eec3"}.ri-loader-3-line:before{content:"\eec4"}.ri-loader-4-fill:before{content:"\eec5"}.ri-loader-4-line:before{content:"\eec6"}.ri-loader-5-fill:before{content:"\eec7"}.ri-loader-5-line:before{content:"\eec8"}.ri-loader-fill:before{content:"\eec9"}.ri-loader-line:before{content:"\eeca"}.ri-menu-2-fill:before{content:"\ef31"}.ri-menu-2-line:before{content:"\ef32"}.ri-menu-3-fill:before{content:"\ef33"}.ri-menu-3-line:before{content:"\ef34"}.ri-menu-4-fill:before{content:"\ef35"}.ri-menu-4-line:before{content:"\ef36"}.ri-menu-5-fill:before{content:"\ef37"}.ri-menu-5-line:before{content:"\ef38"}.ri-menu-fill:before{content:"\ef3b"}.ri-menu-line:before{content:"\ef3e"}.ri-message-2-fill:before{content:"\ef43"}.ri-message-2-line:before{content:"\ef44"}.ri-message-3-fill:before{content:"\ef45"}.ri-message-3-line:before{content:"\ef46"}.ri-message-fill:before{content:"\ef47"}.ri-message-line:before{content:"\ef48"}.ri-more-2-fill:before{content:"\ef76"}.ri-more-2-line:before{content:"\ef77"}.ri-more-fill:before{content:"\ef78"}.ri-more-line:before{content:"\ef79"}.ri-pulse-fill:before{content:"\f034"}.ri-pulse-line:before{content:"\f035"}.ri-question-answer-fill:before{content:"\f042"}.ri-question-answer-line:before{content:"\f043"}.ri-question-fill:before{content:"\f044"}.ri-question-line:before{content:"\f045"}.ri-reserved-fill:before{content:"\f07b"}.ri-reserved-line:before{content:"\f07c"}.ri-save-2-fill:before{content:"\f0ae"}.ri-save-2-line:before{content:"\f0af"}.ri-save-3-fill:before{content:"\f0b0"}.ri-save-3-line:before{content:"\f0b1"}.ri-save-fill:before{content:"\f0b2"}.ri-save-line:before{content:"\f0b3"}.ri-search-2-fill:before{content:"\f0cc"}.ri-search-2-line:before{content:"\f0cd"}.ri-search-fill:before{content:"\f0d0"}.ri-search-line:before{content:"\f0d1"}.ri-settings-2-fill:before{content:"\f0e3"}.ri-settings-2-line:before{content:"\f0e4"}.ri-settings-3-fill:before{content:"\f0e5"}.ri-settings-3-line:before{content:"\f0e6"}.ri-settings-4-fill:before{content:"\f0e7"}.ri-settings-4-line:before{content:"\f0e8"}.ri-settings-5-fill:before{content:"\f0e9"}.ri-settings-5-line:before{content:"\f0ea"}.ri-settings-6-fill:before{content:"\f0eb"}.ri-settings-6-line:before{content:"\f0ec"}.ri-settings-fill:before{content:"\f0ed"}.ri-settings-line:before{content:"\f0ee"}.ri-text:before{content:"\f201"}.ri-time-fill:before{content:"\f20e"}.ri-time-line:before{content:"\f20f"}.ri-toggle-fill:before{content:"\f218"}.ri-toggle-line:before{content:"\f219"}.ri-upload-2-fill:before{content:"\f249"}.ri-upload-2-line:before{content:"\f24a"}.ri-upload-fill:before{content:"\f24f"}.ri-upload-line:before{content:"\f250"}.ri-user-2-fill:before{content:"\f253"}.ri-user-2-line:before{content:"\f254"}.ri-user-3-fill:before{content:"\f255"}.ri-user-3-line:before{content:"\f256"}.ri-user-4-fill:before{content:"\f257"}.ri-user-4-line:before{content:"\f258"}.ri-user-5-fill:before{content:"\f259"}.ri-user-5-line:before{content:"\f25a"}.ri-user-6-fill:before{content:"\f25b"}.ri-user-6-line:before{content:"\f25c"}.ri-user-fill:before{content:"\f25f"}.ri-user-follow-fill:before{content:"\f260"}.ri-user-follow-line:before{content:"\f261"}.ri-user-line:before{content:"\f264"}.ri-user-search-fill:before{content:"\f26b"}.ri-user-search-line:before{content:"\f26c"}.ri-user-settings-fill:before{content:"\f26d"}.ri-user-settings-line:before{content:"\f26e"}.ri-p2p-fill:before{content:"\f34d"}.ri-p2p-line:before{content:"\f34e"}ol{margin-left:30px}
+    </style>
+</head>
+<body>
+<header class="header">
+    <nav class="nav-header container-header">
+        <div class="nav__data">
+            <a href="/" class="nav__logo">
+                <i class="ri-planet-line"></i> FBookDownloader
+            </a>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line nav__burger"></i>
+                <i class="ri-close-line nav__close"></i>
+            </div>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="dropdown__item">
+                    <div class="nav__link">
+                        Language <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                        <li style="display: flex">
+                            <a href="/en" id="language-en" class="dropdown__link"> <i></i> English </a>
+                            <a href="/vi" id="language-vi" class="dropdown__link" hreflang="vi"> <i></i> Vietnamese</a>
+                        </li>
+
+                        <li style="display: flex">
+                            <a href="/es" class="dropdown__link"> <i></i> Español </a>
+                            <a href="/fr" class="dropdown__link"> <i></i> Français </a>
+                        </li>
+                        <li style="display: flex">
+                            <a href="/zh-CN" class="dropdown__link"> <i></i> 中文 </a>
+                            <a href="/de" class="dropdown__link"> <i></i> Deutsch </a>
+                        </li>
+                        <li style="display: flex">
+                            <a href="/ja" class="dropdown__link"> <i></i> 日本語 </a>
+                            <a href="/ko" class="dropdown__link"> <i></i> 한국어 </a>
+                        </li>
+                        <li style="display: flex">
+                            <a href="/pt" class="dropdown__link"> <i></i> Português </a>
+                            <a href="/it" class="dropdown__link"> <i></i> Italiano </a>
+                        </li>
+                        <li style="display: flex">
+                            <a href="/hi" class="dropdown__link"> <i></i> हिन्दी </a>
+                            <a href="/ro" class="dropdown__link"> <i></i> Română </a>
+                        </li>
+                        <li style="display: flex">
+                            <a href="/id" class="dropdown__link"> <i></i> Bahasa Indonesia </a>
+                            <a href="/ms" class="dropdown__link"> <i></i> Bahasa Melayu </a>
+                        </li>
+                        <li style="display: flex">
+                            <a href="/th" class="dropdown__link"> <i></i> ไทย </a>
+                            <a href="/ru" class="dropdown__link"> <i></i>Русский </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section style="width: 80%;margin: auto;line-height: 30px;">
+    <section id="header-content">
+        <div id="title-website" style="margin-top: 180px;display: flex;flex-direction: column;align-items: center;">
+            <h1 style="text-align: center;font-size: 22px"><%= __('h1-header-content') %></h1>
+            <p style="text-align: center;width: 120%;"><%= __('p-header-content') %></p>
+        </div>
+        <div id="inputContainer" style="margin-top: 20px;display: flex;flex-direction: column;align-items: center;">
+            <div class="container-input-btn">
+                <div class="input-container">
+                    <input style="width: 100%;padding: 1rem 1rem; border-radius: 5px;outline:none;border: 1px solid #e7e7e7;box-shadow: 0 0 15px rgb(0 0 0 / 5%);"
+                           type="text" id="urlInput" placeholder="<%= __('placeholder-header-content') %>">
+                    <span>
+                        <button id="clear"
+                                style="border: none;font-size: 13px;padding: 8px;border-radius: 5px;color: white;background: #000000;width: 130%;"><%= __('btn-clear-header-content') %></button>
+                    </span>
+                </div>
+            </div>
+            <div class="container-btn-from">
+                <button style="" class="btnDownload-from"
+                        id="loadButton"><%= __('btn-download-header-content') %></button>
+                <button style="" class="btnPaste-from"
+                        id="paste">
+                    <%= __('btn-paste-header-content') %>
+                </button>
+            </div>
+        </div>
+        <section style="margin-top: 30px; display: none;margin-bottom: 50px" class="dots-container" id="loading">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </section>
+        <div id="videoContainer" style="" class="video-container">
+            <div style="" id="container-thumbnail" class="container-content-information">
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <section id="how-use" style="margin-top:25px">
+            <h2><%= __('h2-how-use') %></h2>
+            <p><%= __('p1-how-use') %></p>
+            <ol>
+                <li><%= __('li1-how-use') %></li>
+                <li><%= __('li2-how-use') %></li>
+                <li><%= __('li3-how-use') %></li>
+                <li><%= __('li4-how-use') %></li>
+            </ol>
+            <p><%= __('p2-how-use') %></p>
+        </section>
+        <section id="a-versatile" style="margin-top:25px">
+            <h2><%= __('h2-a-versatile') %></h2>
+            <p><%= __('p1-a-versatile') %></p>
+            <ul>
+                <li><strong><%= __('strong1-a-versatile') %></strong> <%= __('li1-a-versatile') %></li>
+                <li><strong><%= __('strong2-a-versatile') %></strong> <%= __('li2-a-versatile') %></li>
+                <li><strong><%= __('strong3-a-versatile') %></strong> <%= __('li3-a-versatile') %></li>
+                <li><strong><%= __('strong4-a-versatile') %></strong> <%= __('li4-a-versatile') %></li>
+            </ul>
+        </section>
+        <section id="key-features" style="margin-top:25px">
+            <h2><%= __('h2-key-features') %></h2>
+            <p><%= __('p1-key-features') %></p>
+            <ul>
+                <li> <%= __('li1-key-features') %></li>
+                <li> <%= __('li2-key-features') %></li>
+                <li><%= __('li3-key-features') %></li>
+                <li><%= __('li4-key-features') %></li>
+            </ul>
+            <p><%= __('p2-key-features') %></p>
+        </section>
+
+    </section>
+    <section style="margin-top: 40px;margin-bottom: 40px">
+        <div class="content-faqs" style="width: 100%;margin:0 auto;">
+            <h2><%= __('title-h4-faqs') %></h2>
+
+            <div class="mlr">
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button itemprop="name" class="accordion"><%= __('name-faqs1-email') %>
+                        <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </button>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="panel">
+                        <ul>
+                            <li>
+                                <p itemprop="text"><%= __('text-faqs1-email') %></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mlr">
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button itemprop="name" class="accordion"><%= __('name-faqs2-email') %>
+                        <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </button>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="panel">
+                        <ul>
+                            <li>
+                                <p itemprop="text"><%= __('text-faqs2-email') %></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mlr">
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button itemprop="name" class="accordion"><%= __('name-faqs3-email') %><i
+                                class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </button>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="panel">
+                        <ul>
+                            <li>
+                                <p itemprop="text"><%= __('text-faqs3-email') %></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mlr">
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button itemprop="name" class="accordion"><%= __('name-faqs4-email') %><i
+                                class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </button>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="panel">
+                        <ul>
+                            <li>
+                                <p itemprop="text"><%= __('text-faqs4-email') %></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mlr">
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button itemprop="name" class="accordion"><%= __('name-faqs5-email') %><i
+                                class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </button>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="panel">
+                        <ul>
+                            <li>
+                                <p itemprop="text"><%= __('text-faqs5-email') %></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mlr">
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button itemprop="name" class="accordion"><%= __('name-faqs6-email') %><i
+                                class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </button>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="panel">
+                        <ul>
+                            <li>
+                                <p itemprop="text"><%= __('text-faqs6-email') %></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mlr">
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button itemprop="name" class="accordion"><%= __('name-faqs7-email') %><i
+                                class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </button>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="panel">
+                        <ul>
+                            <li>
+                                <p itemprop="text"><%= __('text-faqs7-email') %></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+<footer style="padding-bottom: 10px">
+    <div class="footer-content">
+        <p>Designed by <a href="/">FBookDownloader</a></p>
+        <p>&copy; 2024 - All rights reserved</p>
+    </div>
+</footer>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "<%= __('name-faqs1-email') %>",
+                    "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "<%= __('text-faqs1-email') %>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "<%= __('name-faqs2-email') %>",
+                    "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "<%= __('text-faqs2-email') %>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "<%= __('name-faqs3-email') %>",
+                    "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "<%= __('text-faqs3-email') %>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "<%= __('name-faqs4-email') %>",
+                    "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "<%= __('text-faqs4-email') %>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "<%= __('name-faqs5-email') %>",
+                    "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "<%= __('text-faqs5-email') %>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "<%= __('name-faqs6-email') %>",
+                    "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "<%= __('text-faqs6-email') %>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "<%= __('name-faqs7-email') %>",
+                    "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "<%= __('text-faqs7-email') %>"
+                    }
+                }
+            ]
+        }
+</script>
+
+<script type="text/javascript">
+    function generateRandomString() {
+        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        let result = '';
+        for (let i = 0; i < 8; i++) { // độ dài của chuỗi ngẫu nhiên
+            result += chars.charAt(Math.floor(Math.random() * chars.length));
+        }
+        return result;
+    }
+
+    async function fetchFinalUrl(url) {
+        try {
+            const response = await fetch(`/proxy?url=${encodeURIComponent(url)}`);
+            return response.url; // Trả về URL cuối cùng sau khi chuyển hướng
+        } catch (error) {
+            console.error("Error fetching final URL:", error);
+            throw error;
+        }
+    }
+
+    function extractFileName(url) {
+        // Tách URL bằng ký tự '?', lấy phần trước dấu hỏi chấm
+        const urlParts = url.split('?')[0];
+        // Lấy phần cuối cùng của URL sau dấu '/'
+        const fileName = urlParts.split('/').pop();
+        return fileName;
+    }
+
+    async function downloadVideoBlob(videoUrl, buttonDownload) {
+        try {
+            buttonDownload.textContent = "Loading...."
+            const finalUrl = await fetchFinalUrl(videoUrl);
+            console.log("Final URL:", finalUrl);
+            const response = await fetch(finalUrl);
+            if (!response.ok) throw new Error("Network response was not ok");
+            const nameFileDownload = extractFileName(response.url)
+            console.log(nameFileDownload)
+            const blob = await response.blob();
+            console.log(blob)
+            const tempLink = document.createElement("a");
+            tempLink.href = URL.createObjectURL(blob);
+            tempLink.download = `snapfbook-${generateRandomString()}.mp4`;
+            tempLink.click();
+            // Giải phóng URL blob sau khi tải xong
+            // URL.revokeObjectURL(tempLink.href);
+        } catch (error) {
+            console.error("Error downloading the video:", error);
+        } finally {
+            buttonDownload.textContent = "Done"
+        }
+    }
+
+    async function downloadMP3Blob(videoUrl, buttonDownload) {
+        try {
+            buttonDownload.textContent = "Loading...."
+            const finalUrl = await fetchFinalUrl(videoUrl);
+            console.log("Final URL:", finalUrl);
+            const response = await fetch(finalUrl);
+            if (!response.ok) throw new Error("Network response was not ok");
+            const nameFileDownload = extractFileName(response.url)
+            console.log(nameFileDownload)
+            const blob = await response.blob();
+            console.log(blob)
+            const tempLink = document.createElement("a");
+            tempLink.href = URL.createObjectURL(blob);
+            tempLink.download = `snapfbook-${generateRandomString()}.mp3`;
+            tempLink.click();
+            // Giải phóng URL blob sau khi tải xong
+            // URL.revokeObjectURL(tempLink.href);
+        } catch (error) {
+            console.error("Error downloading the video:", error);
+        } finally {
+            buttonDownload.textContent = "Done"
+        }
+    }
+
+    function downloadImage(url, filename) {
+        fetch(url)
+            .then(response => response.blob())
+            .then(blob => {
+                const link = document.createElement('a');
+                link.href = window.URL.createObjectURL(blob);
+                link.download = filename;
+                link.click();
+            })
+            .catch(err => console.error('Error downloading image:', err));
+    }
+
+
+    document.getElementById("loadButton").addEventListener("click", (async () => {
+        const e = document.getElementById("urlInput").value.trim();
+        console.log(e);
+        const t = document.getElementById("loading");
+        const containerContent = document.getElementById("container-thumbnail")
+        containerContent.innerHTML = ''
+        if (e) {
+            t.style.display = "flex";
+            try {
+                const t = await fetch(`/download?url=${encodeURIComponent(e)}`);
+                if (console.log(t), !t.ok) throw new Error("Network response was not ok");
+                const n = await t.json();
+                console.log("data", n);
+
+                console.log(n.medias[0].type)
+                if (n.medias[0].type === "image") {
+                    n.medias.forEach(media => {
+                        console.log("media forEach", media)
+                        const img = document.createElement('img')
+                        img.src = media.url
+                        img.classList.add("style-image-fb")
+                        const container = document.createElement('div')
+
+                        const buttonDownload = document.createElement('button')
+                        buttonDownload.textContent = "Download"
+                        buttonDownload.classList.add("btnDownload")
+                        buttonDownload.onclick = () => {
+                            downloadImage(media.url, `snapfbook-image-${generateRandomString()}.jpg`)
+                        }
+
+                        container.appendChild(img)
+                        container.appendChild(buttonDownload)
+                        containerContent.appendChild(container)
+
+
+                    })
+                } else {
+                    const video = document.createElement('video')
+                    video.src = n.medias[0].url
+                    video.controls = !0
+                    video.classList.add("style-image-fb")
+                    const container = document.createElement('div')
+                    container.classList.add('container-content-fb')
+                    const containerButton = document.createElement('div')
+                    const buttonDownloadThumb = document.createElement('button')
+                    buttonDownloadThumb.textContent = "DownloadThumb"
+                    buttonDownloadThumb.classList.add("btnDownload")
+                    buttonDownloadThumb.onclick = () => {
+                        downloadImage(n.thumbnail, `image-thumb-${generateRandomString()}.jpg`)
+                        console.log(n.thumbnail)
+                    }
+                    container.appendChild(video)
+                    n.medias.forEach(media => {
+                        console.log("media forEach", media)
+                        const buttonDownload1 = document.createElement('button')
+
+                        buttonDownload1.textContent = `Download ${media.quality}`
+                        buttonDownload1.classList.add("btnDownload")
+                        buttonDownload1.onclick = () => {
+                            if (media.quality === "HD") {
+                                console.log("HD")
+                                downloadVideoBlob(media.url, buttonDownload1)
+                                console.log(media.url)
+                            } else if (media.quality === "SD") {
+                                console.log("SD")
+                                downloadVideoBlob(media.url, buttonDownload1)
+                                console.log(media.url)
+                            } else {
+                                console.log("MP3")
+                                downloadMP3Blob(media.url, buttonDownload1)
+                            }
+                        }
+                        containerButton.appendChild(buttonDownload1)
+
+
+                    })
+                    containerButton.appendChild(buttonDownloadThumb)
+                    container.appendChild(containerButton)
+                    containerContent.appendChild(container)
+
+                }
+            } catch (e) {
+                console.error("Error fetching the video:", e), alert("Lỗi khi tải video. Vui lòng kiểm tra URL.")
+            } finally {
+                t.style.display = "none"
+            }
+        } else alert("Vui lòng nhập URL video TikTok.")
+    })), document.getElementById("clear").addEventListener("click", (() => {
+        const e = document.getElementById("urlInput");
+        "" !== e.value && (e.value = "")
+    })), document.getElementById("paste").addEventListener("click", (function (e) {
+        e.preventDefault(), navigator.clipboard.readText().then((e => {
+            "" === e.trim() ? console.log("Website không cho phép quyền paste.") : document.getElementById("urlInput").value = e
+        })).catch((e => {
+            "NotAllowedError" !== e.name && console.error("Failed to read clipboard contents: ", e)
+        }))
+    }));
+    const showMenu = (e, t) => {
+        const n = document.getElementById(e), o = document.getElementById(t), l = document.getElementById("createQr"),
+            s = document.getElementById("loading2"), a = document.getElementById("img_default");
+        n.addEventListener("click", (() => {
+            o.classList.toggle("show-menu"), l.style.position = "initial", s.style.display = "none", a.style.opacity = 1, n.classList.toggle("show-icon"), console.log(typeof n.className), console.log(n.className), "nav__toggle" === n.className && (a.style.opacity = .1)
+        }))
+    };
+    showMenu("nav-toggle", "nav-menu");
+    const acc = document.getElementsByClassName("accordion");
+    let i;
+    for (i = 0; i < acc.length; i++) acc[i].addEventListener("click", (function () {
+        this.classList.toggle("active");
+        const e = this.nextElementSibling;
+        e.style.maxHeight ? e.style.maxHeight = null : e.style.maxHeight = e.scrollHeight + "px"
+    }));
+</script>
+
+</body>
+</html>
